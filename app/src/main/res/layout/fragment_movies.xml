@@ -1,0 +1,25 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.sfprojects.android.sfpopularmovies_stage1.MoviesFragment"
+    android:id="@+id/fragmentLayoutId">
+
+    <!-- TODO: Update blank fragment layout -->
+
+<GridView
+    android:id="@+id/gv_moviesDisplayId"
+    android:stretchMode="columnWidth"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="0dp"
+    android:verticalSpacing="0dp"
+    android:horizontalSpacing="0dp"
+    android:numColumns="auto_fit"
+    android:background="#000000"
+    />
+
+</FrameLayout>
+
+
+

@@ -1,0 +1,61 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/containerDetailsFragment"
+    tools:context="com.sfprojects.android.sfpopularmovies_stage1.DetailsActivityFragment">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:paddingLeft="20dp"
+                android:id="@+id/titleMovieId"
+                android:background="#FF5733"
+                android:textSize="30dp"
+                android:gravity="center_vertical"
+                android:textColor="#FFFFFF"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="hello !!"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="15dp"
+                android:layout_below="@+id/titleMovieId"
+                android:layout_alignParentLeft="true"
+                android:id="@+id/posterId"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="0dp"
+                android:paddingTop="15dp"
+                android:paddingBottom="0dp"
+                android:id="@+id/dateId"
+                android:textSize="20dp"
+                android:layout_below="@id/titleMovieId"
+                android:layout_toRightOf="@+id/posterId"
+                />
+
+
+        </RelativeLayout>
+    </ScrollView>
+
+</FrameLayout>

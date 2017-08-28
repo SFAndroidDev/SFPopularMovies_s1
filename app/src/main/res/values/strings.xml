@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">SFPopularMovies_stage1</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank details fragment</string>
+    <string name="title_activity_settings">SettingsActivity</string>
+
+    <string-array name="pref_entries" translatable="false">
+        <item>Popularity</item>
+        <item>Rating</item>
+        <item>Favorites</item>
+    </string-array>
+    <string-array name="pref_values" translatable="false">
+        <item>popularity</item>
+        <item>rating</item>
+        <item>favorites</item>
+    </string-array>
+
+</resources>
