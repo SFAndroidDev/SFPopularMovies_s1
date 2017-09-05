@@ -45,7 +45,7 @@ public class MoviesFragment extends Fragment {
     public static ArrayList<String> postersPopular;
     public static boolean sortByPopularity = true;
     public static boolean sortByFavorites;
-    public static String API_KEY = "bf94a98a96b72ecf112fd2c9eee1b8c3";
+    public static String API_KEY = "";// you need to insert your own API key here to use the app
 
     public static PreferenceChangeListener listener;
     public static SharedPreferences preferences;

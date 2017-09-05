@@ -19,7 +19,7 @@
                 android:layout_height="130dp"
                 android:paddingLeft="20dp"
                 android:id="@+id/titleMovieId"
-                android:background="#FF5733"
+                android:background="#27AC04"
                 android:textSize="30dp"
                 android:gravity="center_vertical"
                 android:textColor="#FFFFFF"
@@ -54,6 +54,123 @@
                 android:layout_toRightOf="@+id/posterId"
                 />
 
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="5dp"
+                android:paddingRight="0dp"
+                android:paddingTop="5dp"
+                android:paddingBottom="0dp"
+                android:id="@+id/ratingId"
+                android:textStyle="bold"
+                android:layout_below="@id/dateId"
+                android:layout_toRightOf="@+id/posterId"
+                />
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:text="mark as favorite"
+                android:layout_below="@id/ratingId"
+                android:layout_toRightOf="@id/posterId"
+                android:paddingLeft="0dp"
+                android:paddingRight="0dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="0dp"
+                android:id="@+id/favoriteId"
+                android:textStyle="bold"
+                android:gravity="center"
+                android:onClick="favorite"
+                />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:paddingTop="0dp"
+                android:paddingBottom="15dp"
+                android:id="@+id/overviewId"
+                android:layout_below="@id/posterId"
+
+                />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:id="@+id/linearLayoutId"
+                android:paddingLeft="15dp"
+                android:paddingRight="15dp"
+                android:layout_below="@+id/overviewId"
+                >
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    >
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="0dp"
+                    android:id="@+id/trailersId"
+                    android:text="Trailers:"
+
+                    />
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer 1"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:id="@+id/trailer1Id"
+                    android:gravity="center_vertical"
+                    android:onClick="trailer1"/>
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Trailer 2"
+                    android:paddingLeft="15dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="0dp"
+                    android:paddingBottom="0dp"
+                    android:id="@+id/trailer2Id"
+                    android:gravity="center_vertical"
+                    android:onClick="trailer2"/>
+
+                <View
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@android:color/black"
+                    >
+
+                </View>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="0dp"
+                    android:paddingRight="0dp"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="0dp"
+                    android:id="@+id/reviewsId"
+                    android:text="Reviews:"
+
+                    />
+
+            </LinearLayout>
 
         </RelativeLayout>
     </ScrollView>
